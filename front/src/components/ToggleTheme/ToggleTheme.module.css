@@ -1,0 +1,24 @@
+@import url('../../index.css');
+
+.toggleBtn {
+	border: none;
+	background: none;
+	cursor: pointer;
+	margin-right: 40px;
+}
+
+.toggleIcon {
+	font-size: var(--fz28);
+	color: var(--black-text);
+}
+
+.dark-theme {
+	--main-color: #83ff63;
+	--main-black: #445056;
+	--main-gray: #515B60;
+	--white-body: #202223;
+	--black-text: #FFFFFF;
+	--gray-text: #ffffff;
+	--white-dark: #445056;
+	--dark-white: #FFFFFF;
+}

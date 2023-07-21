@@ -1,0 +1,117 @@
+@import url('../../index.css');
+
+
+
+.wrapper {
+	max-width: 1200px;
+	padding: 0px 20px;
+	margin: 0 auto;
+	width: 100%;
+	margin-top: 40px;
+	/* Добавлен отступ сверху, равный высоте боковой панели */
+	margin-left: 450px;
+	/* Добавлен отступ справа, равный ширине боковой панели */
+	box-sizing: border-box;
+	/* Учитываем отступы в общей ширине элемента */
+}
+
+/* !HEADER! */
+.header {
+	margin-top: 40px;
+}
+
+.headerContent {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+
+/* !NAV BAR CHATS! */
+.navBarChats {
+	margin-top: 40px;
+}
+
+
+.formCreateBlock {
+	margin-top: 40px;
+}
+
+.formCreate {
+	display: flex;
+	flex-direction: column;
+	max-width: 610px;
+}
+
+.namePostCreate {
+	background: var(--main-black);
+	padding: 20px 35px 20px 35px;
+	border: none;
+	border-radius: 15px;
+	color: var(--white-text);
+	margin-bottom: 20px;
+}
+
+.namePostCreate,
+.namePostCreate::placeholder {
+	font-size: var(--fz16);
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+.namePostCreate::placeholder {
+	color: var(--white-text-opacity);
+}
+
+.contentPostCreate {
+	color: var(--white);
+	background: var(--main-black);
+	padding: 20px 35px 20px 35px;
+	border: none;
+	border-radius: 15px;
+	height: 160px;
+	margin-bottom: 20px;
+}
+
+.contentPostCreate,
+.contentPostCreate::placeholder {
+	font-size: var(--fz16);
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+.contentPostCreate::placeholder {
+	color: var(--white-text-opacity);
+}
+
+.chooseFile {
+	color: var(--dark-white);
+	font-size: var(--fz18);
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	margin-bottom: 10px;
+}
+
+.filePostCreate {
+	color: var(--white);
+	background: var(--main-black);
+	padding: 20px 35px 20px 35px;
+	border: none;
+	border-radius: 15px;
+	margin-bottom: 25px;
+}
+
+.submitCreateBtn {
+	background-color: var(--main-color);
+	border: none;
+	border-radius: 8px;
+	font-size: var(--fz16);
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	padding: 15px 60px 15px 60px;
+	cursor: pointer;
+}

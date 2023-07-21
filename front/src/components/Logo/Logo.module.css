@@ -1,0 +1,10 @@
+@import url('../../index.css');
+
+.logo {
+	color: var(--main-color);
+	font-size: var(--fz26);
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	padding-top: 50px;
+}

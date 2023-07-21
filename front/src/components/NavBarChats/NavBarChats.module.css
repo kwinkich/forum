@@ -1,0 +1,63 @@
+@import url('../../index.css');
+
+.navBar {
+	background: var(--main-gray);
+	border-radius: 40px;
+	margin-bottom: 20px;
+}
+
+.navBarBlock {
+	display: flex;
+	padding: 20px 40px 20px 40px;
+}
+
+.navBarLi {
+	color: var(--white);
+	font-size: var(--fz18);
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+.navBarLi:not(:last-child) {
+	margin-right: 40px;
+}
+
+.navBarLink {
+	position: relative;
+	color: var(--white);
+	transition: all 0.5s ease-in-out;
+}
+
+.navBarLink:hover,
+.navBarLink:focus {
+	color: var(--main-color);
+}
+
+.navBarLink::before {
+	position: absolute;
+	content: '';
+	width: 0%;
+	height: 2px;
+	background-color: var(--main-color);
+	top: 110%;
+	left: 0;
+	transition: all 0.5s ease-in-out;
+}
+
+
+.navBarLink:active::before {
+	position: absolute;
+	content: '';
+	width: 0%;
+	height: 2px;
+	background-color: var(--main-color);
+	top: 110%;
+	left: 0;
+	transition: all 0.5s ease-in-out;
+}
+
+.navBarLink:hover::before,
+.navBarLink:focus::before {
+	width: 100%;
+}

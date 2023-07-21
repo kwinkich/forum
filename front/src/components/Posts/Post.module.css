@@ -1,0 +1,61 @@
+@import url('../../index.css');
+
+.post {
+	margin-top: 10px;
+	background-color: var(--main-gray);
+	border-radius: 30px;
+}
+
+.postContent {
+	padding: 30px 30px 30px 30px;
+	max-width: 1050px;
+}
+
+.postTitle {
+	color: var(--main-color);
+	font-size: var(--fz24);
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	margin-bottom: 10px;
+}
+
+.infoLink {
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+.userImg {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background-color: var(--main-black);
+	margin-right: 8px;
+}
+
+.infoUser,
+.infoDate {
+	color: var(--white);
+	font-size: var(--fz14);
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.postImage {
+	max-width: 350px;
+	margin-bottom: 15px;
+}
+
+.postImage img {
+	max-width: 100%;
+}
+
+.postContentText {
+	color: var(--white);
+	font-size: var(--fz18);
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}

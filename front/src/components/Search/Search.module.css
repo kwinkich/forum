@@ -1,0 +1,24 @@
+@import url('../../index.css');
+
+.searchInput {
+	color: var(--white-dark);
+	font-size: var(--fz16);
+	border: 2px solid var(--black-text);
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	padding: 15px 0px 15px 20px;
+	max-width: 300px;
+	width: 100%;
+	border-radius: 5px;
+	margin-right: 100px;
+	transition: all 0.3s ease-in-out;
+}
+
+.searchInput:focus {
+	background-color: var(--black-text);
+}
+
+.searchInput::placeholder {
+	color: #777E82;
+}

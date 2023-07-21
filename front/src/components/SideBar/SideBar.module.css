@@ -1,0 +1,22 @@
+@import url('../../index.css');
+
+.wrapperAside {
+	position: fixed;
+	top: 0;
+	left: 0;
+	max-width: 340px;
+	width: 100%;
+	min-height: 100vh;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-right: 90px;
+	background-color: var(--main-black);
+}
+
+
+
+.wrapperLinkPage {
+	margin-top: 45px;
+}

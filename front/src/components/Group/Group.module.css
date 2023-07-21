@@ -1,0 +1,79 @@
+@import url('../../index.css');
+
+.group {
+	margin-top: 10px;
+	background-color: var(--main-gray);
+	border-radius: 30px;
+}
+
+.groupContent {
+	padding: 30px 30px 30px 30px;
+	max-width: 1050px;
+}
+
+.groupHead {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 16px;
+}
+
+.groupName {
+	color: var(--main-color);
+	font-size: var(--fz24);
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	margin-bottom: 10px;
+	margin-right: 25px;
+}
+
+.groupP {
+	color: var(--white-text);
+	font-size: var(--fz16);
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	margin-right: 10px;
+}
+
+.groupOwnerBlock {
+	display: flex;
+	align-items: center;
+}
+
+.groupOwner {
+	display: flex;
+	align-items: center;
+}
+
+.ownerAvatar {
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	margin-right: 3px;
+}
+
+.ownerNick {
+	color: var(--white-text);
+	font-size: var(--fz14);
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.groupTitleDesc {
+	color: var(--white-text);
+	font-size: var(--fz18);
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	margin-bottom: 4px;
+}
+
+.globalDesc {
+	color: var(--white-text);
+	font-size: var(--fz16);
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}

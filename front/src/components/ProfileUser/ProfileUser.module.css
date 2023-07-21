@@ -1,0 +1,33 @@
+@import url('../../index.css');
+
+.profileBlockLink {
+	cursor: pointer;
+}
+
+
+.profileBlock {
+	display: flex;
+	align-items: center;
+}
+
+.imageProfile {
+	width: 40px;
+	height: 40px;
+	margin-right: 6px;
+}
+
+
+.imageProfile img {
+	max-width: 100%;
+	border-radius: 50%;
+}
+
+
+
+.nameUser {
+	color: var(--black-text);
+	font-size: var(--fz18);
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}

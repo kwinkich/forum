@@ -1,0 +1,31 @@
+@import url('../../index.css');
+
+.wrapper {
+	max-width: 1200px;
+	padding: 0px 20px;
+	margin: 0 auto;
+	width: 100%;
+	margin-top: 40px;
+	/* Добавлен отступ сверху, равный высоте боковой панели */
+	margin-left: 450px;
+	/* Добавлен отступ справа, равный ширине боковой панели */
+	box-sizing: border-box;
+	/* Учитываем отступы в общей ширине элемента */
+}
+
+/* !HEADER! */
+.header {
+	margin-top: 40px;
+}
+
+.headerContent {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+
+/* !NAV BAR CHATS! */
+.navBarChats {
+	margin-top: 40px;
+}

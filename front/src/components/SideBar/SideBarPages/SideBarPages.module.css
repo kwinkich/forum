@@ -1,0 +1,32 @@
+@import url('../../../index.css');
+
+.linkWrrap {
+	margin-bottom: 20px;
+	border-radius: 10px;
+	width: 270px;
+	transition: all 0.5s ease-in-out;
+}
+
+.linkWrrap:hover {
+	background-color: var(--main-gray);
+}
+
+.sideBarLink {
+	padding: 15px 0px 15px 20px;
+	display: flex;
+	align-items: center;
+}
+
+.icon {
+	color: var(--white-text);
+	font-size: var(--fz28);
+	margin-right: 8px;
+}
+
+.pageName {
+	color: var(--white-text);
+	font-size: var(--fz20);
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
