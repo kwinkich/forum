@@ -1,35 +1,5 @@
 @import url('../../index.css');
 
-.wrapper {
-	max-width: 1200px;
-	padding: 0px 20px;
-	margin: 0 auto;
-	width: 100%;
-	margin-top: 40px;
-	/* Добавлен отступ сверху, равный высоте боковой панели */
-	margin-left: 450px;
-	/* Добавлен отступ справа, равный ширине боковой панели */
-	box-sizing: border-box;
-	/* Учитываем отступы в общей ширине элемента */
-}
-
-/* !HEADER! */
-.header {
-	margin-top: 40px;
-}
-
-.headerContent {
-	display: flex;
-	align-items: center;
-	justify-content: flex-end;
-}
-
-
-/* !NAV BAR CHATS! */
-.navBarChats {
-	margin-top: 40px;
-}
-
 .userProfileBlock {
 	background-color: var(--main-gray);
 	margin-top: 40px;
@@ -49,6 +19,16 @@
 	max-width: 100%;
 }
 
+.placeholderBannerBlock {
+	width: 100%;
+	background-color: var(--main-black);
+	height: 200px;
+	border-radius: 30px;
+	margin-bottom: 30px;
+}
+
+
+
 .userProfileInfoBlock {
 	display: flex;
 	align-items: center;
@@ -64,6 +44,14 @@
 .userProfileImage img {
 	width: 100%;
 	border-radius: 50%;
+}
+
+.placeholderAvatarBlock {
+	width: 100px;
+	height: 100px;
+	margin-right: 16px;
+	border-radius: 50%;
+	background-color: var(--main-black);
 }
 
 .userProfileNickname {
@@ -94,4 +82,25 @@
 	font-style: normal;
 	font-weight: 500;
 	line-height: normal;
+	margin-bottom: 30px;
+}
+
+.btnExit {
+	padding: 15px 40px;
+	font-size: 18px;
+	font-weight: 500;
+	font-style: normal;
+	background-color: var(--main-red);
+	border: none;
+	color: var(--white-text);
+	cursor: pointer;
+	transition: all 0.5s ease-in-out;
+}
+
+.btnExit:hover {
+	background-color: #bd4f4f;
+}
+
+.exitIcon {
+	margin-left: 15px;
 }

@@ -5,7 +5,7 @@ import styles from './ToggleTheme.module.css';
 
 function ToggleTheme() {
   const [isDarkMode, setIsDarkMode] = useState(false);
-
+	
   const handleToggleClick = () => {
     setIsDarkMode(!isDarkMode);
     if (!isDarkMode) {

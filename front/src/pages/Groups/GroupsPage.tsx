@@ -50,7 +50,7 @@ function GroupsPage() {
           <div className={styles.headerContent}>
             <Search />
             <ToggleTheme />
-            <ProfileUser onClick={handleUserPageClick}/>
+            <ProfileUser avatarPath='' onClick={handleUserPageClick}/>
           </div>
         </header>
         <section className={styles.navBarChats}>

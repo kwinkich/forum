@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Login from '../../components/LogIn/Login';
 import Register from '../../components/Register/Register';
 import styles from './Form.module.css';

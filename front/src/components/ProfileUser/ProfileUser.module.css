@@ -31,3 +31,11 @@
 	font-weight: 600;
 	line-height: normal;
 }
+
+.imagePlaceholder {
+	width: 40px;
+	height: 40px;
+	margin-right: 6px;
+	background-color: var(--black-text);
+	border-radius: 50%;
+}

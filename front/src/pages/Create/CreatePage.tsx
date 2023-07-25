@@ -22,7 +22,7 @@ function CreatePage() {
           <div className={styles.headerContent}>
             <Search />
             <ToggleTheme />
-            <ProfileUser onClick={handleUserPageClick}/>
+            <ProfileUser avatarPath='' onClick={handleUserPageClick}/>
           </div>
         </header>
 				<article className={styles.formCreateBlock}>

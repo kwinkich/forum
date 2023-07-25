@@ -3,6 +3,7 @@
 
 :root {
 	--main-color: #83ff63;
+	--main-red: #ff6363;
 	--main-black: #263238;
 	--main-gray: #515B60;
 	--black-text: #263238;
@@ -13,7 +14,6 @@
 	--white-dark: #ffffff;
 	--dark-white: #000000;
 	--white-body: #ffffff;
-
 	--fz60: 60px;
 	--fz32: 32px;
 	--fz28: 28px;

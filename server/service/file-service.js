@@ -20,6 +20,25 @@ class UserService {
 		return { ...tokens, user: userDto };
 	}
 
+	async avatarAddName(file) {
+		const originalExtension = path.extname(file.originalname);
+		const avatarName = file.uuid.v4() + originalExtension;
+		return avatarName;
+	}
+
+	async saveAvatarForUser(avatarName) {
+		try {
+			const user = await User.findById(userId);
+			if (!user) {
+				throw new Error('Пользователь не найден.');
+			}
+			user.avatarName = avatarName;
+			await user.save();
+			console.log('Имя аватара успешно сохранено в модели пользователя.');
+		} catch (error) {
+			console.error('Произошла ошибка при сохранении имени аватара:', error.message);
+		}
+	}
 	async login(userName, password) {
 		const user = await UserModel.findOne({ userName });
 		if (!user) {

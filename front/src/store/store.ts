@@ -30,6 +30,7 @@ export default class Store {
   setUserName(userName: string) { // Добавлен метод для установки userName
     this.user.userName = userName;
   }
+	
 
   async login(userName: string, password: string) {
     try {
@@ -53,6 +54,7 @@ export default class Store {
       this.setAuth(true);
       this.setUser(response.data.user);
     } catch (err) {
+			alert('Ошибка регистрации!');
       console.log(`ERR REGISTER ${err}`);
     }
   }
@@ -84,8 +86,5 @@ export default class Store {
   }
 }
 
-//// Создаем контекст для хранилища
 export const StoreContext = createContext(new Store());
-
-//// Хук для использования хранилища в компонентах
 export const useStore = () => useContext(StoreContext);
